@@ -1,0 +1,135 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+    background-color: cadetblue;
+}
+.allBox{
+    border-spacing: 5px 1rem;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    animation: colorAnimate1 3s ease-in 0s infinite normal;
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    top: 400px;
+    animation: colorAnimate1 5s ease-in 0s infinite normal;
+
+
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: chocolate;
+    position: absolute;
+    top: 100px;
+    animation: colorAnimate 3s ease-in 0s infinite normal;
+
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    position: absolute;
+    top: 300px;
+    animation: colorAnimate 5s ease-in 0s infinite normal;
+
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    position: absolute;
+    top: 0px;
+    right: 800px;
+    animation: colorAnimate2 3s ease-in 0s infinite normal;
+
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    animation: colorAnimate2 5s ease-in 0s infinite normal;
+
+}
+.box8{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    animation: colorAnimate1 3s ease-in 0s infinite normal;
+
+}
+.box7{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+    animation: colorAnimate1 5s ease-in 0s infinite normal;
+
+}
+@keyframes colorAnimate{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1000px);
+    } 
+ } 
+ @keyframes colorAnimate1{
+    from{
+        transform: translateX(-0px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+
+}
+@keyframes colorAnimate2{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(1000px);
+    } 
+ } 
+ @keyframes colorAnimate1{
+    from{
+        transform: translateY(-0px);
+    }
+    to{
+        transform: translateY(-1000px);
+    }
+
+}
